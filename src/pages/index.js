@@ -3,11 +3,11 @@ import Banner from "../components/Banner";
 import Header from "../components/Header";
 import ProductFeed from "../components/ProductFeed";
 
-export default function Home({products}) {
+export default function Home({ products }) {
   return (
     <div>
       <Head>
-        <title>Amazon 2.0</title>
+        <title>My Amazon </title>
       </Head>
 
       {/* Header */}
@@ -17,8 +17,7 @@ export default function Home({products}) {
         <Banner />
 
         {/* Product Feed */}
-        <ProductFeed products={products}/> 
-
+        <ProductFeed products={products} />
       </main>
     </div>
   );
