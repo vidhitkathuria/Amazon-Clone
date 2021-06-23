@@ -8,8 +8,13 @@ export default function Home() {
         <title>Amazon 2.0</title>
       </Head>
 
-       {/* Header */}
-       <Header />
+      {/* Header */}
+      <Header />
+      <main className="max-w-screen-2xl ">
+        {/* Banner */}
+
+        {/* Product Feed */}
+      </main>
     </div>
   );
 }
